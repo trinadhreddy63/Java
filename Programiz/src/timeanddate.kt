@@ -29,3 +29,4 @@ fun main(args: Array<String>) {
         var birthday = LocalDate.of(1994,10,5)
       //  println(birthday.plusDays((birthday.year+birthday.w)))
     }
+val c1 = String::class

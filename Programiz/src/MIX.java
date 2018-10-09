@@ -6,9 +6,9 @@ import java.util.regex.Pattern;
 class Mix{
     public static void main(String[] args)
     {
+      //  val c1 = String::class
 
-
-        Calendar cal = Calendar.getInstance();
+    Calendar cal = Calendar.getInstance();
        cal.set(1985, 1, 8); // Assumes MM/dd/yyyy
         //cal.set(1985, 8, 1); // Assumes dd/MM/yyyy
         // cal.getTime() returns a Date object
