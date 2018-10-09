@@ -1,0 +1,23 @@
+
+fun main(args: Array<String>) {
+    val lis= listOf('1',2,"we",5.0,"sai")
+    var mutuallist = mutableListOf("sand", "water", "air", 7, 5, 3)
+    println(mutuallist)
+    mutuallist.add(1, "trees")
+    println(mutuallist)
+    println(mutuallist.addAll(0, lis))
+    println(mutuallist)
+    println(mutuallist.removeAll(lis))
+    println(mutuallist)
+    println(mutuallist.removeAt(2))
+    println(mutuallist)
+    mutuallist.add("sai")
+    println(mutuallist.retainAll(lis))
+    println(mutuallist)
+    println(lis)
+    mutuallist.addAll(0, lis)
+    println(mutuallist)
+    println(mutuallist.set(1, 5))
+    println(mutuallist)
+    println(mutuallist.subList(1, 3))
+}

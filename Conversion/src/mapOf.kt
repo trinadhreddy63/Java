@@ -1,0 +1,21 @@
+fun main(args:Array<String>) {
+    var mymap = mapOf(1 to "satya", 2 to "durga", "sai" to 3, "divya" to 4)
+    for (key in mymap.keys)
+        println("my element at $key is ${mymap.get(key)}")
+    println(mymap.getValue(2))
+    println(mymap.contains("sai"))
+    println(mymap.contains("durga"))
+    println(mymap.containsValue("durga"))
+    println(mymap.getOrDefault(2,"sandy"))
+    for(itr in mymap.asIterable())
+        println(" the key is =${itr.key} and the value is = ${itr.value}")
+    for(itr in mymap.iterator())
+        println(" the key is =${itr.key} and the value is = ${itr.value}")
+    for(m in mymap.minus(2))
+                     println(mymap[m.key])
+    for(m in mymap.plus(Pair(5,"chaitu")))
+        println("element at ${m.key} = ${m.value}")
+    var cat:Int=129
+    var ch:Byte=cat.toByte()
+    println(ch)
+}
