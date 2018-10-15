@@ -1,3 +1,4 @@
+import java.util.*
 fun main(args: Array<String>) {
 
 
@@ -12,6 +13,16 @@ fun main(args: Array<String>) {
     println(::x.get())
     println(::x.name)
     println(::y.set(10))
+    val hMap = HashMap<String, String>()
+    hMap["1"] = "1st"
+    hMap["2"] = "2nd"
+    hMap["3"] = "3rd"
+    val cl = hMap.values
+    val itr = cl.iterator()
+
+    while (itr.hasNext()) {
+        println(itr.next())
+    }
 
 }
 var x=5
