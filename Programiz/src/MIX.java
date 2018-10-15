@@ -4,8 +4,22 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 class Mix{
+
+    Mix(){System.out.println("Bike is created");}
     public static void main(String[] args)
     {
+
+                Mix b=new Mix();
+                Mix c=new Mix();
+     /*   int result=(1<2)?1:2;
+        System.out.println(result);
+        String s=null;
+        if(s==null)
+            System.out.println("null");
+    for(int i=1;i<10;){
+        System.out.println(i);
+        i=i*2;
+    }
       //  val c1 = String::class
 
     Calendar cal = Calendar.getInstance();
@@ -21,6 +35,6 @@ class Mix{
             count++;
             System.out.println("the index of start of that occurence: "+m.start()+" the (index+1) of end of that occurence: "+m.end()+" the occurence is: "+m.group());
         }
-        System.out.println("the number of occurence "+count);
+        System.out.println("the number of occurence "+count);*/
     }
 }

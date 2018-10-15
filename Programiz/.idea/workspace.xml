@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e51dd422-2174-4b89-80c8-4e094153efd3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ExtensionFunction.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RegularExpression/src/CollectionImplement.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RegularExpression/src/HighOrderFunction.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RegularExpression/src/LambdafunctionExample.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RegularExpression/src/Rotation.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programiz/META-INF/Programiz.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programiz/META-INF/Programiz.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programiz/Mix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programiz/Mix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programiz/TimeanddateKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programiz/TimeanddateKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MIX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MIX.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/timeanddate.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/timeanddate.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../kotlin-koans" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin-koans" afterDir="false" />
@@ -21,9 +29,11 @@
     <session id="-570006812">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="17" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="6" />
           <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
@@ -31,31 +41,31 @@
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="4" />
-          <entry key="kt" value="43" />
+          <entry key="java" value="5" />
+          <entry key="kt" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="4" />
-          <entry key="Kotlin" value="43" />
+          <entry key="JAVA" value="5" />
+          <entry key="Kotlin" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="511" />
-          <entry key="kt" value="7838" />
+          <entry key="java" value="791" />
+          <entry key="kt" value="8258" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="511" />
-          <entry key="Kotlin" value="7838" />
+          <entry key="JAVA" value="791" />
+          <entry key="Kotlin" value="8258" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -63,23 +73,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/timeanddate.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="22" selection-start-line="31" selection-end-line="31" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#37#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="135">
+              <caret line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MIX.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+              <caret line="11" column="31" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -151,8 +158,9 @@
         <option value="$PROJECT_DIR$/src/ReverseSentence.kt" />
         <option value="$PROJECT_DIR$/src/MIX.kt" />
         <option value="$PROJECT_DIR$/src/progress.kt" />
-        <option value="$PROJECT_DIR$/src/timeanddate.kt" />
+        <option value="$PROJECT_DIR$/src/ExtensionFunction.kt" />
         <option value="$PROJECT_DIR$/src/MIX.java" />
+        <option value="$PROJECT_DIR$/src/timeanddate.kt" />
       </list>
     </option>
   </component>
@@ -167,35 +175,10 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Programiz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Programiz" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Programiz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Programiz" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Programiz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Programiz" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="MIX.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539087897017" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539584504475" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -212,7 +195,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Mix">
+  <component name="RunManager" selected="Kotlin.TimeanddateKt">
     <configuration name="Mix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Mix" />
       <module name="Programiz" />
@@ -220,9 +203,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dfsd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dfsd" />
+    <configuration name="ExtensionFunctionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Programiz" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ExtensionFunctionKt" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -269,17 +258,17 @@
     <list>
       <item itemvalue="Kotlin.ReverseSentenceKt" />
       <item itemvalue="Kotlin.MIXKt" />
-      <item itemvalue="Application.dfsd" />
       <item itemvalue="Kotlin.TimeanddateKt" />
       <item itemvalue="Application.Mix" />
+      <item itemvalue="Kotlin.ExtensionFunctionKt" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Mix" />
         <item itemvalue="Kotlin.TimeanddateKt" />
+        <item itemvalue="Application.Mix" />
         <item itemvalue="Kotlin.MIXKt" />
+        <item itemvalue="Kotlin.ExtensionFunctionKt" />
         <item itemvalue="Kotlin.ReverseSentenceKt" />
-        <item itemvalue="Application.dfsd" />
       </list>
     </recent_temporary>
   </component>
@@ -298,9 +287,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1853" height="1053" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918434" visible="true" weight="0.19811843" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918434" weight="0.20475927" />
       <window_info id="Structure" order="1" sideWeight="0.5008157" side_tool="true" weight="0.18705036" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -309,7 +297,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32932165" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32932165" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934355" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -329,7 +317,7 @@
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.3298351" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918434" weight="0.19590482" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918434" visible="true" weight="0.20475927" />
       <window_info id="Structure" order="1" sideWeight="0.5008157" side_tool="true" weight="0.18705036" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -405,6 +393,12 @@
           <line>37</line>
           <properties />
           <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/timeanddate.kt</url>
+          <line>71</line>
+          <properties />
+          <option name="timeStamp" value="38" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -659,20 +653,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ExtensionFunction.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/timeanddate.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="22" selection-start-line="31" selection-end-line="31" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MIX.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
