@@ -7,4 +7,11 @@ fun main(args: Array<String>) {
     println(ma.contains(0))
     for(i in 0..6)
         println(ma.getValue(i))
+    val l= listOf<Int>(1,2,3,5,6,9,77)
+    println(l.sum())
+    var k=l.sumBy { it }
+    println(k)
+    val m= listOf(1,2,6,7,9)
+    println(l.subtract(m))
+
 }
