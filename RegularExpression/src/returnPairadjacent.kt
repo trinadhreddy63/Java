@@ -7,6 +7,7 @@ fun main(args: Array<String>) {
     println(pairs)
     val listA = listOf("a", "b", "c")
     val listB = listOf(1, 2, 3, 4)
+    listB.last()
     println(listA zip listB)
     val result = listA.zip(listB) { a, b -> "$a$b" }
     println(result)
